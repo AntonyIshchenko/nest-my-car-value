@@ -4,8 +4,8 @@ import {
   CallHandler,
   Injectable,
 } from '@nestjs/common';
-import { User } from 'src/users/user.entity';
-import { UsersService } from 'src/users/users.service';
+import { User } from '../user.entity';
+import { UsersService } from '../users.service';
 
 interface Request {
   session?: { userId?: number };
